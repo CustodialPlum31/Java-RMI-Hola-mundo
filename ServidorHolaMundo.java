@@ -6,8 +6,8 @@ public class ServidorHolaMundo extends UnicastRemoteObject implements ServicioHo
         super();
     }
 
-    float x = 8.53f;
-    float y = 20.23f;
+    float x = 318.53f;
+    float y = 50.23f;
     float z ;
     String res;
     
