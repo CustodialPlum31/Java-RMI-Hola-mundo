@@ -3,7 +3,7 @@ import java.rmi.Naming;
 public class ClienteRMI {
     public static void main(String[] args) {
         try {
-            ServicioHolaMundo servicio = (ServicioHolaMundo) Naming.lookup("rmi://localhost/ServicioHolaMundo");
+            ServicioHolaMundo servicio = (ServicioHolaMundo) Naming.lookup("rmi://10.86.14.153/ServicioHolaMundo");
 
 
 
